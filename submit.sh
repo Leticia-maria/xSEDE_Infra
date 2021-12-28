@@ -12,6 +12,6 @@ pip install cclib
 pip install cctk
 
 conda config --add channels conda-forge
-conda install -c -y conda-forge redis-py
-conda install -c -y conda-forge redis-server
+conda install -y -c conda-forge redis-py
+conda install -y -c conda-forge redis-server
 conda install -y xtb
