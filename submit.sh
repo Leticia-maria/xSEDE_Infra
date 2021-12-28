@@ -22,6 +22,7 @@ conda install -y -c conda-forge redis-py
 conda install -y -c conda-forge redis-server
 conda install -c conda-forge openbabel
 conda install -y xtb
+conda install -y crest
 
 redis-server redis.conf &
 funsies wait
