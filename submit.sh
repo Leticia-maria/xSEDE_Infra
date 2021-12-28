@@ -20,6 +20,7 @@ pip install cctk
 conda config --add channels conda-forge
 conda install -y -c conda-forge redis-py
 conda install -y -c conda-forge redis-server
+conda install -c conda-forge openbabel
 conda install -y xtb
 
 redis-server redis.conf &
